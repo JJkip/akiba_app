@@ -1,5 +1,6 @@
 package com.sourcey.akiba;
 
+
 import android.annotation.SuppressLint;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -19,8 +20,7 @@ public class SelectedChallengesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         textView = new TextView(this);
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams( LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         textView.setLayoutParams(params);
         textView.setPadding(10, 10, 10, 10);
         textView.setTypeface(null, Typeface.BOLD);
@@ -29,6 +29,9 @@ public class SelectedChallengesActivity extends AppCompatActivity {
 
         //get data from intent
         getIntentData();
+
+
+
     }
 
     @SuppressLint("SetTextI18n")
