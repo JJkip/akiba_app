@@ -3,8 +3,6 @@ package com.sourcey.akiba;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -44,7 +42,7 @@ public class SelectedChallengesFragment extends Fragment{
         int imgPlaceholderResId;
 
         public ChallengesSection(int topic) {
-            super(R.layout.section_ex2_header, R.layout.section_ex2_footer, R.layout.section_ex2_item);
+            super(R.layout.section_ch_header, R.layout.section_ch_footer, R.layout.section_ch_item);
 
             this.topic = topic;
 
